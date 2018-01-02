@@ -1,0 +1,25 @@
+	{
+	"name": "lego",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"lodash": "latest",
+		"request": "latest",
+		"request-promise-native": "latest"
+	},
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JosephMarinier/lego.git"
+	},
+	"bugs": {
+		"url": "https://github.com/JosephMarinier/lego/issues"
+	},
+	"homepage": "https://github.com/JosephMarinier/lego#readme",
+	"description": ""
+}
