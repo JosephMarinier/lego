@@ -1,56 +1,16 @@
-﻿const request = require("request-promise-native");
 const _ = require("lodash");
-const LEGO_BASE_URL = "https://shop.lego.com";
-const OAUTH_URL = "https://shop.lego.com";
-const PRODUCT_URL = "sh/rest/products/pab/elements";
-const DARK_GREEN = 28;
+const LegoApi = require("./LegoApi");
 
-let token;
+const DARK_GREEN = 28;
 
 main();
 
-function defaultOptions() {
-	const options = {
-		baseUrl: LEGO_BASE_URL, // TODO data?
-		method: "GET",
-		qs: {
-			api_version: 1,
-		},
-		json: true,
-		resolveWithFullResponse: true,
-	};
-
-	if (token) {
-		_.deepMerge(options, { auth: { bearer: token } });
-	}
-
-	return options;
-}
-
-async function init() {
-	token = await request.defaults(defaultOptions())({
-		url: OAUTH_URL,
-		method: "POST",
-	});
-}
-
-async function getProductWithColor(color) {
-	const rawData = await request.defaults(defaultOptions())({
-		url: PRODUCT_URL, // TODO data?
-		qs: {
-			exact_color: color,
-			offset: 0,
-			limit: 53,
-		},
-	});
-	return rawData.elements;
-}
-
 async function main() {
 	try {
-		await init();
+		const lego = new LegoApi();
+		await lego.setToken();
 
-		const greenLegos = await getProductWithColor(DARK_GREEN);
+		const greenLegos = await lego.getProductWithColor(DARK_GREEN);
 
 		_(greenLegos).map((element) => {
 			const { name, price, element_id, design_id } = element;
