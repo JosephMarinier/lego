@@ -8,7 +8,6 @@ main();
 async function main() {
 	try {
 		const lego = new LegoApi();
-		await lego.setToken();
 
 		const greenLegos = await lego.getProductWithColor(DARK_GREEN);
 

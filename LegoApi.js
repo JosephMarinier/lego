@@ -16,21 +16,27 @@ const defaultOptions = {
 
 class LegoApi {
 	constructor() {
-		this.requestLego = request.defaults(defaultOptions);
+		this.request = request.defaults(defaultOptions);
+		this.token = null;
 	}
 
-	async setToken() {
-		const rawResponse = await this.requestLego.post({
-			uri: OAUTH_URL,
-		});
-		const token = rawResponse.access_token;
-		const optionWithToken = _.merge(defaultOptions, { auth: { bearer: token } });
-		this.requestLego = request.defaults(optionWithToken);
+	async getToken() {
+		if (!this.token) {
+			const rawResponse = await this.request.post({
+				uri: OAUTH_URI,
+			});
+			this.token = rawResponse.access_token;
+		}
+
+		return this.token;
 	}
 
 	async getProductWithColor(color) {
-		const rawData = await request.defaults(defaultOptions).get({
-			uri: PRODUCT_URL, // TODO data?
+		const rawData = await this.request.get({
+			auth: {
+				bearer: await this.getToken(),
+			},
+			uri: PRODUCT_URI,
 			qs: {
 				exact_color: color,
 				offset: 0,
