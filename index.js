@@ -18,6 +18,12 @@ async function main() {
 				const length = Number(RegExp.$2);
 				const studs = width * length;
 				const price_per_stud = price / studs;
+				const representations = [
+					Array(width).fill(Array(length).fill(1)),
+				];
+				if (width != length) {
+					representations.push(_.zip(...representations[0]));
+				}
 				return {
 					element_id,
 					design_id,
@@ -27,6 +33,7 @@ async function main() {
 					price,
 					studs,
 					price_per_stud,
+					representations,
 				};
 			} else if (/^CORNER PLATE (\d+)X(\d+)X(\d+)$/.test(name)) {
 				const thickness = Number(RegExp.$1);
@@ -34,6 +41,16 @@ async function main() {
 				const length = Number(RegExp.$3);
 				const studs = thickness * (width + length - thickness);
 				const price_per_stud = price / studs;
+				const representations = [
+					_.times(width, (y) => (
+						_.times(length, (x) => (
+							Number(x < thickness || y < thickness)
+						))
+					)),
+				];
+				representations.push([...representations[0]].reverse());
+				representations.push(_.map(representations[0], (line) => [...line].reverse()));
+				representations.push(_.map(representations[0], (line) => [...line].reverse()).reverse());
 				return {
 					element_id,
 					design_id,
@@ -44,6 +61,7 @@ async function main() {
 					price,
 					studs,
 					price_per_stud,
+					representations,
 				};
 			}
 		}).compact().sort(
