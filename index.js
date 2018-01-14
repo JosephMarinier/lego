@@ -12,34 +12,34 @@ async function main() {
 
 		const greenLegos = await lego.getProductWithColor(DARK_GREEN);
 
-		_(greenLegos).map((element) => {
+		const green_plates = _(greenLegos).map((element) => {
 			const { name, price, element_id, design_id } = element;
-			if (/^PLATE (\d+)X(\d+)$/.exec(name)) {
+			if (/^PLATE (\d+)X(\d+)$/.test(name)) {
 				const width = Number(RegExp.$1);
 				const length = Number(RegExp.$2);
 				const studs = width * length;
 				const price_per_stud = price / studs;
 				return {
-					// element_id,
-					// design_id,
-					// title,
+					element_id,
+					design_id,
+					name,
 					width,
 					length,
 					price,
 					studs,
 					price_per_stud,
 				};
-			} else if (/^CORNER PLATE (\d+)X(\d+)X(\d+)$/.exec(name)) {
+			} else if (/^CORNER PLATE (\d+)X(\d+)X(\d+)$/.test(name)) {
 				const thickness = Number(RegExp.$1);
 				const width = Number(RegExp.$2);
 				const length = Number(RegExp.$3);
 				const studs = thickness * (width + length - thickness);
 				const price_per_stud = price / studs;
 				return {
-					// element_id,
-					// design_id,
-					// title,
-					// thickness,
+					element_id,
+					design_id,
+					name,
+					thickness,
 					width,
 					length,
 					price,
@@ -47,12 +47,16 @@ async function main() {
 					price_per_stud,
 				};
 			}
-		}).compact().sort((a, b) => (a.price_per_stud - b.price_per_stud) || (b.studs - a.studs)
-		).each(console.log
-		).reduce(([price_sum, studs_sum], { price, studs }) => [
+		}).compact().sort(
+			(a, b) => (a.price_per_stud - b.price_per_stud) || (b.studs - a.studs)
+		).value();
+		/*
+		green_plates.each(console.log)
+		const average_price_per_stud = green_plates.reduce(([price_sum, studs_sum], { price, studs }) => [
 			price_sum + price,
 			studs_sum + studs,
 		], [0, 0]).reduce((price_sum, studs_sum) => (price_sum / studs_sum));
+		*/
 	} catch (e) {
 		console.error(e);
 	}
