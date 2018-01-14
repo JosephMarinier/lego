@@ -1,5 +1,6 @@
 const _ = require("lodash");
 const LegoApi = require("./LegoApi");
+const Map = require("./Map");
 
 const DARK_GREEN = 28;
 
@@ -74,6 +75,21 @@ async function main() {
 			studs_sum + studs,
 		], [0, 0]).reduce((price_sum, studs_sum) => (price_sum / studs_sum));
 		*/
+
+		const map = new Map();
+		console.log(map.toString());
+
+		_.each(green_plates, ({representations}) => {
+			_(map.map).each((line, y) => (
+				_(line).each((stud, x) => {
+					_(representations).some((representation) => (
+						map.try_placing(representation, x, y)
+					));
+				})
+			));
+			console.log();
+			console.log(map.toString());
+		});
 	} catch (e) {
 		console.error(e);
 	}
