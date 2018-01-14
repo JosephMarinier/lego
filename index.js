@@ -66,7 +66,7 @@ async function main() {
 				};
 			}
 		}).compact().sort(
-			(a, b) => (a.price_per_stud - b.price_per_stud) || (b.studs - a.studs)
+			(a, b) => (b.studs - a.studs) || (a.price_per_stud - b.price_per_stud)
 		).value();
 		/*
 		green_plates.each(console.log)
