@@ -2,20 +2,19 @@ const _ = require("lodash");
 const request = require("request-promise-native");
 
 const LEGO_BASE_URL = "https://shop.lego.com";
-const OAUTH_URL = "oauth/accessToken";
-const PRODUCT_URL = "sh/rest/products/pab/elements";
+const OAUTH_URI = "oauth/accessToken";
+const PRODUCT_URI = "sh/rest/products/pab/elements";
 
 const defaultOptions = {
 	baseUrl: LEGO_BASE_URL,
 	qs: {
 		api_version: 1,
-		accept_language: "en-CA", // Mandatory or won't be able to ge tthe token
+		accept_language: "en-CA",
 	},
 	json: true,
 };
 
 class LegoApi {
-
 	constructor() {
 		this.requestLego = request.defaults(defaultOptions);
 	}
@@ -35,7 +34,7 @@ class LegoApi {
 			qs: {
 				exact_color: color,
 				offset: 0,
-				limit: 53,
+				limit: 10000,
 			},
 		});
 		return rawData.elements;
