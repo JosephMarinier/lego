@@ -11,9 +11,9 @@
 	"license": "ISC",
 	"dependencies": {
 		"lodash": "latest",
+		"nodemon": "latest",
 		"request": "latest",
-		"request-promise-native": "latest",
-		"nodemon": "latest"
+		"request-promise-native": "latest"
 	},
 	"devDependencies": {},
 	"repository": {
