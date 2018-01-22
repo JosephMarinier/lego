@@ -65,9 +65,7 @@ async function main() {
 					representations,
 				};
 			}
-		}).compact().sort(
-			(a, b) => (b.studs - a.studs) || (a.price_per_stud - b.price_per_stud)
-		).value();
+		}).compact().orderBy(['studs', 'price_per_stud'], ['desc' ,'asc']).value();
 		/*
 		green_plates.each(console.log)
 		const average_price_per_stud = green_plates.reduce(([price_sum, studs_sum], { price, studs }) => [
