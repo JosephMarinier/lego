@@ -35,6 +35,7 @@ async function main() {
 					studs,
 					price_per_stud,
 					representations,
+					quantity: 0,
 				};
 			} else if (/^CORNER PLATE (\d+)X(\d+)X(\d+)$/.test(name)) {
 				const thickness = Number(RegExp.$1);
@@ -63,6 +64,7 @@ async function main() {
 					studs,
 					price_per_stud,
 					representations,
+					quantity: 0,
 				};
 			}
 		}).compact().orderBy(['studs', 'price_per_stud'], ['desc' ,'asc']).value();
@@ -77,17 +79,28 @@ async function main() {
 		const map = new Map();
 		console.log(map.toString());
 
-		_.each(green_plates, ({representations}) => {
+		_.each(green_plates, (green_plate) => {
 			_(map.map).each((line, y) => (
 				_(line).each((stud, x) => {
-					_(representations).some((representation) => (
+					if (_(green_plate.representations).some((representation) => (
 						map.try_placing(representation, x, y)
-					));
+					))) {
+						green_plate.quantity += 1;
+					}
 				})
 			));
 			console.log();
 			console.log(map.toString());
 		});
+
+		const {quantity, cost} = _.transform(green_plates, (total, {name, price, quantity}) => {
+			const cost = quantity * price;
+			total.quantity += quantity;
+			total.cost += cost;
+			console.log((quantity + " × " + name).padEnd(22) + " à " + price.toFixed(2).padStart(6) + " = " + cost.toFixed(2).padStart(6));
+		}, {quantity: 0, cost: 0});
+		console.log("".padStart(42, "_"));
+		console.log((quantity + " ×").padEnd(22) + cost.toFixed(2).padStart(18) + " $");
 	} catch (e) {
 		console.error(e);
 	}
