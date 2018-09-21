@@ -11,6 +11,7 @@
 	"license": "ISC",
 	"dependencies": {
 		"lodash": "latest",
+		"node-bitmap": "git+https://github.com/nowelium/node-bitmap.git",
 		"nodemon": "latest",
 		"request": "latest",
 		"request-promise-native": "latest"

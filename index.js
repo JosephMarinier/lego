@@ -8,6 +8,8 @@ const DARK_GREEN = 28;
 main();
 
 async function main() {
+	var seuil = process.argv[process.execArgv.length + 2] || 112;
+
 	try {
 		const lego = new LegoApi();
 
@@ -22,8 +24,7 @@ async function main() {
 		], [0, 0]).reduce((price_sum, studs_sum) => (price_sum / studs_sum));
 		*/
 
-		const map = new Map();
-		console.log(map.toString());
+		const map = new Map(seuil);
 
 		_.each(green_plates, (green_plate) => {
 			_(map.map).each((line, y) => (
@@ -43,10 +44,10 @@ async function main() {
 			const cost = quantity * price;
 			total.quantity += quantity;
 			total.cost += cost;
-			console.log((quantity + " × " + name).padEnd(22) + " à " + price.toFixed(2).padStart(6) + " = " + cost.toFixed(2).padStart(6));
+			console.log(`${(quantity + " × " + name).padEnd(23)} à ${price.toFixed(2).padStart(6)} = ${cost.toFixed(2).padStart(6)}`);
 		}, {quantity: 0, cost: 0});
-		console.log("".padStart(42, "_"));
-		console.log((quantity + " ×").padEnd(22) + cost.toFixed(2).padStart(18) + " $");
+		console.log("".padStart(43, "_"));
+		console.log(`${(quantity + " ×").padEnd(23)}${cost.toFixed(2).padStart(18)} $`);
 	} catch (e) {
 		console.error(e);
 	}
