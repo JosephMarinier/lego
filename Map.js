@@ -2,6 +2,8 @@ const _ = require("lodash");
 const fs = require("fs");
 const Bitmap = require("node-bitmap");
 
+const color = require("./color");
+
 class Map {
 	constructor(seuil) {
 		const bitmap = new Bitmap(fs.readFileSync("map.bmp"));
@@ -19,9 +21,24 @@ class Map {
 	set(x, y, value) {
 		_.set(this.map, [y, x], value || this.number_of_pieces);
 	}
+	
+	color(stud) {
+		let colorValue = stud == 0 && this.number_of_pieces > 1 ? 0 // black
+			: stud < 0 ? 4 // blue
+			: 2; // green
+		return "\u001b[" + (40 + colorValue) + "m";
+	}
 
 	toString() {
-		return _(this.map).map((line) => (line.join(""))).join("\n");
+		return color.foreground.black(_.map(this.map, (line, y) => (
+			_.map(line, (stud, x) => (
+				stud === this.get(x - 1, y) ? "" : this.color(stud)
+			) + (
+				stud === this.get(x, y + 1) ? " " : "_"
+			) + (
+				stud === this.get(x + 1, y) ? " " : "|"
+			)).join("") + "\u001b[49m"
+		)).join("\n"));
 	}
 
 	fits(piece, x_offset, y_offset) {
