@@ -1,27 +1,23 @@
 const _ = require("lodash");
+const fs = require("fs");
+const Bitmap = require("node-bitmap");
 
 class Map {
-	constructor() {
-		this.map = [
-			[1, 0, 0, 0, 0, 0, 1],
-			[1, 1, 1, 0, 0, 0, 0],
-			[1, 1, 0, 0, 0, 0, 0],
-			[0, 1, 1, 0, 0, 0, 0],
-			[0, 0, 1, 0, 0, 0, 0],
-			[1, 1, 1, 1, 1, 0, 0],
-			[0, 1, 0, 0, 0, 0, 0],
-			[0, 1, 1, 1, 1, 0, 0],
-		];
+	constructor(seuil) {
+		const bitmap = new Bitmap(fs.readFileSync("map.bmp"));
+		bitmap.init();
 
-		this.number_of_pieces = 1;
+		this.map = _.map(bitmap.getData(true), (line, y) => _.map(line, ({r, g, b}, x) => (r + g + b) < seuil * 3 ? -(1 + Math.floor(x / 32) + 4 * Math.floor(y / 32)) : 0));
+
+		this.number_of_pieces = 0;
 	}
 
 	get(x, y) {
-		return _.get(this.map, [y, x], -1);
+		return _.get(this.map, [y, x], null);
 	}
 
-	set(x, y) {
-		_.set(this.map, [y, x], this.number_of_pieces);
+	set(x, y, value) {
+		_.set(this.map, [y, x], value || this.number_of_pieces);
 	}
 
 	toString() {
@@ -30,7 +26,7 @@ class Map {
 
 	fits(piece, x_offset, y_offset) {
 		return _(piece).every((line, y) => (
-			_(line).every((stud, x) => !(stud && this.get(x + x_offset, y + y_offset)))
+			_(line).every((stud, x) => !(stud && this.get(x + x_offset, y + y_offset) != 0))
 		));
 	}
 
