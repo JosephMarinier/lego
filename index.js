@@ -44,7 +44,7 @@ async function main() {
 			const cost = quantity * price;
 			total.quantity += quantity;
 			total.cost += cost;
-			console.log(`${(quantity + " × " + name).padEnd(23)} à ${price.toFixed(2).padStart(6)} = ${cost.toFixed(2).padStart(6)}`);
+			console.log(`${(quantity + " × " + name).padEnd(23)} @ ${price.toFixed(2).padStart(6)} = ${cost.toFixed(2).padStart(6)}`);
 		}, {quantity: 0, cost: 0});
 		console.log("".padStart(43, "_"));
 		console.log(`${(quantity + " ×").padEnd(23)}${cost.toFixed(2).padStart(18)} $`);
