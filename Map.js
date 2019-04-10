@@ -5,11 +5,11 @@ const Bitmap = require("node-bitmap");
 const color = require("./color");
 
 class Map {
-	constructor(seuil) {
+	constructor(threshold) {
 		const bitmap = new Bitmap(fs.readFileSync("map.bmp"));
 		bitmap.init();
 
-		this.map = _.map(bitmap.getData(true), (line, y) => _.map(line, ({r, g, b}, x) => (r + g + b) < seuil * 3 ? -(1 + Math.floor(x / 32) + 4 * Math.floor(y / 32)) : 0));
+		this.map = _.map(bitmap.getData(true), (line, y) => _.map(line, ({r, g, b}, x) => (r + g + b) < threshold * 3 ? -(1 + Math.floor(x / 32) + 4 * Math.floor(y / 32)) : 0));
 
 		this.number_of_pieces = 0;
 	}
@@ -58,7 +58,7 @@ class Map {
 		));
 	}
 
-	try_placing(piece, x_offset, y_offset) {
+	tryPlacing(piece, x_offset, y_offset) {
 		const fits = this.fits(piece, x_offset, y_offset);
 		if (fits) {
 			this.place(piece, x_offset, y_offset);

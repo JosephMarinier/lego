@@ -1,38 +1,52 @@
 const _ = require("lodash");
+const fs = require("fs");
 const LegoApi = require("./LegoApi");
 const LegoFactory = require("./LegoPlate");
 const Map = require("./Map");
 
-const DARK_GREEN = 28;
-
 main();
 
 async function main() {
-	var seuil = process.argv[process.execArgv.length + 2] || 112;
+	var threshold = process.argv[process.execArgv.length + 2] || 112;
 
 	try {
-		const lego = new LegoApi();
+		let greenLegos;
+		try {
+			const content = fs.readFileSync(`greenLegos.json`);
 
-		const greenLegos = await lego.getProductWithColor(DARK_GREEN);
+			greenLegos = JSON.parse(content);
 
-		const green_plates = _(greenLegos).map(LegoFactory).compact().orderBy(['studs', 'price_per_stud'], ['desc' ,'asc']).value();
+			console.log(`Got green plates info from file.`);
+		} catch (error) {
+			console.log(`Getting green plates info from Internet...`);
+
+			const legoApi = new LegoApi();
+
+			greenLegos = await legoApi.getProductWithColor(LegoApi.DARK_GREEN);
+
+			fs.writeFileSync(`greenLegos.json`, JSON.stringify(greenLegos, null, "\t"));
+		}
+
+		const greenPlates = _(greenLegos).map(LegoFactory).compact().orderBy(['studs', 'price_per_stud'], ['desc' ,'asc']).value();
+
+		// TODO lodash v 4
 		/*
-		green_plates.each(console.log)
-		const average_price_per_stud = green_plates.reduce(([price_sum, studs_sum], { price, studs }) => [
+		greenPlates.each(console.log)
+		const average_price_per_stud = greenPlates.reduce(([price_sum, studs_sum], { price, studs }) => [
 			price_sum + price,
 			studs_sum + studs,
 		], [0, 0]).reduce((price_sum, studs_sum) => (price_sum / studs_sum));
 		*/
 
-		const map = new Map(seuil);
+		const map = new Map(threshold);
 
-		_.each(green_plates, (green_plate) => {
+		_.each(greenPlates, (greenPlate) => {
 			_(map.map).each((line, y) => (
 				_(line).each((stud, x) => {
-					if (_(green_plate.representations).some((representation) => (
-						map.try_placing(representation, x, y)
+					if (_(greenPlate.representations).some((representation) => (
+						map.tryPlacing(representation, x, y)
 					))) {
-						green_plate.quantity += 1;
+						greenPlate.quantity += 1;
 					}
 				})
 			));
@@ -40,7 +54,7 @@ async function main() {
 			console.log(map.toString());
 		});
 
-		const {quantity, cost} = _.transform(green_plates, (total, {name, price, quantity}) => {
+		const {quantity, cost} = _.transform(greenPlates, (total, {name, price, quantity}) => {
 			const cost = quantity * price;
 			total.quantity += quantity;
 			total.cost += cost;

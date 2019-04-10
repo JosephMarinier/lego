@@ -15,6 +15,10 @@ const defaultOptions = {
 };
 
 class LegoApi {
+	static get DARK_GREEN() {
+		return 28;
+	}
+
 	constructor() {
 		this.request = request.defaults(defaultOptions);
 		this.token = null;

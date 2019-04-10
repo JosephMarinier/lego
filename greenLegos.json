@@ -1,0 +1,1751 @@
+[
+	{
+		"price": 0.18,
+		"price_formatted": "0.18 CAD",
+		"currency_code": "CAD",
+		"name": "ANGULAR PLATE 1.5 BOT. 1X2 1/2",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/6099243"
+		],
+		"element_id": "6099243",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates, special",
+		"design_id": "99780",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 10920,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=99780"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=16"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.23,
+		"price_formatted": "0.23 CAD",
+		"currency_code": "CAD",
+		"name": "BAMBOO LEAVES 3X3",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4114348"
+		],
+		"element_id": "4114348",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Botanic",
+		"design_id": "30176",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 14955,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=30176"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=28"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.23,
+		"price_formatted": "0.23 CAD",
+		"currency_code": "CAD",
+		"name": "BAMBOO LEAVES 3X3",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/6270003"
+		],
+		"element_id": "6270003",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Botanic",
+		"design_id": "30176",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 6861,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=30176"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=28"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.14,
+		"price_formatted": "0.14 CAD",
+		"currency_code": "CAD",
+		"name": "BRICK 1X2",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4107736"
+		],
+		"element_id": "4107736",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Bricks",
+		"design_id": "3004",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 23142,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3004"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=1"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.18,
+		"price_formatted": "0.18 CAD",
+		"currency_code": "CAD",
+		"name": "BRICK 1X2 W. 2 KNOBS",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/6129807"
+		],
+		"element_id": "6129807",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Bricks, special",
+		"design_id": "11211",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 13489,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=11211"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=2"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.18,
+		"price_formatted": "0.18 CAD",
+		"currency_code": "CAD",
+		"name": "BRICK 1X3",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4109679"
+		],
+		"element_id": "4109679",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Bricks",
+		"design_id": "3622",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 7226,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3622"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=1"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.18,
+		"price_formatted": "0.18 CAD",
+		"currency_code": "CAD",
+		"name": "BRICK 2X2",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/300328"
+		],
+		"element_id": "300328",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Bricks",
+		"design_id": "3003",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 25780,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3003"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=1"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.22,
+		"price_formatted": "0.22 CAD",
+		"currency_code": "CAD",
+		"name": "BRICK 2X3",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4109674"
+		],
+		"element_id": "4109674",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Bricks",
+		"design_id": "3002",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 13951,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3002"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=1"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.27,
+		"price_formatted": "0.27 CAD",
+		"currency_code": "CAD",
+		"name": "BRICK 2X4",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4106356"
+		],
+		"element_id": "4106356",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Bricks",
+		"design_id": "3001",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 39375,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3001"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=1"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.37,
+		"price_formatted": "0.37 CAD",
+		"currency_code": "CAD",
+		"name": "BRICK 2X6",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4181135"
+		],
+		"element_id": "4181135",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Bricks",
+		"design_id": "44237",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 12382,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=44237"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=1"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.09,
+		"price_formatted": "0.09 CAD",
+		"currency_code": "CAD",
+		"name": "CORNER PLATE 1X2X2",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4157120"
+		],
+		"element_id": "4157120",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "2420",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 16024,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=2420"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.08,
+		"price_formatted": "0.08 CAD",
+		"currency_code": "CAD",
+		"name": "FLAT TILE 1X1",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4558593"
+		],
+		"element_id": "4558593",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "3070",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 29605,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3070"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.09,
+		"price_formatted": "0.09 CAD",
+		"currency_code": "CAD",
+		"name": "FLAT TILE 1X2",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/306928"
+		],
+		"element_id": "306928",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "3069",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 15542,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3069"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.28,
+		"price_formatted": "0.28 CAD",
+		"currency_code": "CAD",
+		"name": "FLAT TILE 1X2, DEC. 100",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4295260"
+		],
+		"element_id": "4295260",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "82317",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 9993,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=82317"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.16,
+		"price_formatted": "0.16 CAD",
+		"currency_code": "CAD",
+		"name": "FLAT TILE 1X4",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/243128"
+		],
+		"element_id": "243128",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "2431",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 15622,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=2431"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.1,
+		"price_formatted": "0.10 CAD",
+		"currency_code": "CAD",
+		"name": "FLAT TILE 2X2",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4107762"
+		],
+		"element_id": "4107762",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "3068",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 26163,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3068"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.25,
+		"price_formatted": "0.25 CAD",
+		"currency_code": "CAD",
+		"name": "LIMB ELEMENT",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/6266968"
+		],
+		"element_id": "6266968",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Botanic",
+		"design_id": "2417",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 54741,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=2417"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=28"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.15,
+		"price_formatted": "0.15 CAD",
+		"currency_code": "CAD",
+		"name": "LIMB ELEMENT, SMALL",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/6268814"
+		],
+		"element_id": "6268814",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Botanic",
+		"design_id": "2423",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 32997,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=2423"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=28"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.15,
+		"price_formatted": "0.15 CAD",
+		"currency_code": "CAD",
+		"name": "LIMB ELEMENT, SMALL",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/242328"
+		],
+		"element_id": "242328",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Botanic",
+		"design_id": "2423",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 14668,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=2423"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=28"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.51,
+		"price_formatted": "0.51 CAD",
+		"currency_code": "CAD",
+		"name": "MINI BODY UNDER PART GRE",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/74040"
+		],
+		"element_id": "74040",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Figure parts",
+		"design_id": "73200",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 9169,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=73200"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=40"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.09,
+		"price_formatted": "0.09 CAD",
+		"currency_code": "CAD",
+		"name": "NOSE CONE SMALL 1X1",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4529239"
+		],
+		"element_id": "4529239",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Bricks, special circles and angles",
+		"design_id": "59900",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 32040,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=59900"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=3"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.33,
+		"price_formatted": "0.33 CAD",
+		"currency_code": "CAD",
+		"name": "PALMLEAF, SMALL",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/6269040"
+		],
+		"element_id": "6269040",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Botanic",
+		"design_id": "6148",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 2688,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=6148"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=28"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.08,
+		"price_formatted": "0.08 CAD",
+		"currency_code": "CAD",
+		"name": "PLANT, W/ 3.2 SHAFT, NO. 1",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/6269971"
+		],
+		"element_id": "6269971",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Botanic",
+		"design_id": "24855",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 30062,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=24855"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=28"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.08,
+		"price_formatted": "0.08 CAD",
+		"currency_code": "CAD",
+		"name": "PLANT, W/ PLATE 1X1, NO. 1",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/6229130"
+		],
+		"element_id": "6229130",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Botanic",
+		"design_id": "32607",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 10212,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=32607"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=28"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.08,
+		"price_formatted": "0.08 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 1X1",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/302428"
+		],
+		"element_id": "302428",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "3024",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 69039,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3024"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.08,
+		"price_formatted": "0.08 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 1X1 ROUND",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4569058"
+		],
+		"element_id": "4569058",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates, special circles and angles",
+		"design_id": "6141",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 64601,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=6141"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=17"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.09,
+		"price_formatted": "0.09 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 1X2",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/302328"
+		],
+		"element_id": "302328",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "3023",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 39167,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3023"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.09,
+		"price_formatted": "0.09 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 1X2 W. 1 KNOB",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/6092586"
+		],
+		"element_id": "6092586",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "15573",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 15913,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=15573"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.09,
+		"price_formatted": "0.09 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 1X3",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4107758"
+		],
+		"element_id": "4107758",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "3623",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 10479,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3623"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.14,
+		"price_formatted": "0.14 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 1X4",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/371028"
+		],
+		"element_id": "371028",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "3710",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 31478,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3710"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.18,
+		"price_formatted": "0.18 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 1X6",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/366628"
+		],
+		"element_id": "366628",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "3666",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 13119,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3666"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.23,
+		"price_formatted": "0.23 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 1X8",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/346028"
+		],
+		"element_id": "346028",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "3460",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 17860,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3460"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.32,
+		"price_formatted": "0.32 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 2X10",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/383228"
+		],
+		"element_id": "383228",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "3832",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 2758,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3832"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.14,
+		"price_formatted": "0.14 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 2X2",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/302228"
+		],
+		"element_id": "302228",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "3022",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 15083,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3022"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.1,
+		"price_formatted": "0.10 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 2X2 ROUND",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/403228"
+		],
+		"element_id": "403228",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates, special circles and angles",
+		"design_id": "4032",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 18975,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=4032"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=17"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.18,
+		"price_formatted": "0.18 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 2X3",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/302128"
+		],
+		"element_id": "302128",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "3021",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 7386,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3021"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.18,
+		"price_formatted": "0.18 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 2X4",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/302028"
+		],
+		"element_id": "302028",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "3020",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 13707,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3020"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.25,
+		"price_formatted": "0.25 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 2X6",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/379528"
+		],
+		"element_id": "379528",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "3795",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 6997,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3795"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.32,
+		"price_formatted": "0.32 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 2X8",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/303428"
+		],
+		"element_id": "303428",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "3034",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 4018,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3034"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.27,
+		"price_formatted": "0.27 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 4X4",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4243821"
+		],
+		"element_id": "4243821",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "3031",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 6091,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3031"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.55,
+		"price_formatted": "0.55 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 4X6",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4116671"
+		],
+		"element_id": "4116671",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "3032",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 2372,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3032"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.6,
+		"price_formatted": "0.60 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 4X8",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4277361"
+		],
+		"element_id": "4277361",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "3035",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 3363,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3035"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.86,
+		"price_formatted": "0.86 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 6X8",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4507311"
+		],
+		"element_id": "4507311",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "3036",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 1858,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3036"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 1.03,
+		"price_formatted": "1.03 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE 8X8",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4161677"
+		],
+		"element_id": "4161677",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Plates",
+		"design_id": "41539",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 2690,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=41539"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=15"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.16,
+		"price_formatted": "0.16 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE W. BOW  2X2X2/3",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/6116259"
+		],
+		"element_id": "6116259",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Bricks with bows and arches",
+		"design_id": "15068",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 4900,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=15068"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=7"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.08,
+		"price_formatted": "0.08 CAD",
+		"currency_code": "CAD",
+		"name": "PLATE W. BOW 1X2X2/3",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/6047426"
+		],
+		"element_id": "6047426",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Bricks with bows and arches",
+		"design_id": "11477",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 9925,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=11477"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=7"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.08,
+		"price_formatted": "0.08 CAD",
+		"currency_code": "CAD",
+		"name": "ROOF TILE 1X1X2/3, ABS",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4546705"
+		],
+		"element_id": "4546705",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Bricks, with slope",
+		"design_id": "54200",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 43914,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=54200"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=5"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.14,
+		"price_formatted": "0.14 CAD",
+		"currency_code": "CAD",
+		"name": "ROOF TILE 1X2/45°",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4121969"
+		],
+		"element_id": "4121969",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Bricks, with slope",
+		"design_id": "3040",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 20189,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3040"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=5"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.14,
+		"price_formatted": "0.14 CAD",
+		"currency_code": "CAD",
+		"name": "ROOF TILE 1X3/25°",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/4107637"
+		],
+		"element_id": "4107637",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Bricks, with slope",
+		"design_id": "4286",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 6876,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=4286"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=5"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.18,
+		"price_formatted": "0.18 CAD",
+		"currency_code": "CAD",
+		"name": "ROOF TILE 2X2/45°",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/303928"
+		],
+		"element_id": "303928",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Bricks, with slope",
+		"design_id": "3039",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 18059,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3039"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=5"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.08,
+		"price_formatted": "0.08 CAD",
+		"currency_code": "CAD",
+		"name": "ROUND BRICK 1X1",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/306228"
+		],
+		"element_id": "306228",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Bricks, special circles and angles",
+		"design_id": "3062",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 53335,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=3062"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=3"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.65,
+		"price_formatted": "0.65 CAD",
+		"currency_code": "CAD",
+		"name": "SPRUCE TREE, SMALL",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/6268823"
+		],
+		"element_id": "6268823",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Botanic",
+		"design_id": "2435",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 2848,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=2435"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=28"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	},
+	{
+		"price": 0.16,
+		"price_formatted": "0.16 CAD",
+		"currency_code": "CAD",
+		"name": "Tail Ø 3,2",
+		"media_url": [
+			"https://sh-s7-live-s.legocdn.com/is/image/LEGOPCS/6270055"
+		],
+		"element_id": "6270055",
+		"color_family": "Dark Green",
+		"exact_color": "Dark green",
+		"category": "Figure accessories, upper and lower part",
+		"design_id": "55236",
+		"availability_status": "E_AVAILABLE",
+		"restricted_status": "unrestricted",
+		"inventory_quantity": 11329,
+		"max_order_quantity": 999,
+		"alternative_product": null,
+		"_links": {
+			"same_design": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&design_id=55236"
+			},
+			"same_category": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&categories=45"
+			},
+			"same_color_family": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&color_families=28"
+			},
+			"same_exact_color": {
+				"href": "/sh/rest/products/pab/elements?limit=10000&exact_color=28"
+			}
+		}
+	}
+]
