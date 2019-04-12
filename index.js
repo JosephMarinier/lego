@@ -40,6 +40,8 @@ async function main() {
 
 		const map = new Map(threshold);
 
+		const start = Date.now();
+
 		_.each(greenPlates, (greenPlate) => {
 			_(map.map).each((line, y) => (
 				_(line).each((stud, x) => {
@@ -53,6 +55,8 @@ async function main() {
 			console.log();
 			console.log(map.toString());
 		});
+
+		console.log(`\nTook ${(Date.now() - start) / 1000} s\n`);
 
 		const {quantity, cost} = _.transform(greenPlates, (total, {name, price, quantity}) => {
 			const cost = quantity * price;
