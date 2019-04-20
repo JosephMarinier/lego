@@ -29,15 +29,6 @@ async function main() {
 
 		const greenPlates = _(greenLegos).map(LegoFactory).compact().orderBy(['studs', 'price_per_stud'], ['desc' ,'asc']).value();
 
-		// TODO lodash v 4
-		/*
-		greenPlates.each(console.log)
-		const average_price_per_stud = greenPlates.reduce(([price_sum, studs_sum], { price, studs }) => [
-			price_sum + price,
-			studs_sum + studs,
-		], [0, 0]).reduce((price_sum, studs_sum) => (price_sum / studs_sum));
-		*/
-
 		const map = new Map(threshold);
 
 		const start = Date.now();
