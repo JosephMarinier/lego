@@ -43,7 +43,7 @@ class Plate extends Lego {
 		}
 	}
 
-	get price_per_stud() {
+	get pricePerStud() {
 		return this.price / this.studs;
 	}
 }

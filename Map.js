@@ -11,7 +11,7 @@ class Map {
 
 		this.map = _.map(bitmap.getData(true), (line, y) => _.map(line, ({r, g, b}, x) => (r + g + b) < threshold * 3 ? -(1 + Math.floor(x / 32) + 4 * Math.floor(y / 32)) : 0));
 
-		this.number_of_pieces = 0;
+		this.pieceCount = 0;
 	}
 
 	get(x, y) {
@@ -19,11 +19,11 @@ class Map {
 	}
 
 	set(x, y, value) {
-		_.set(this.map, [y, x], value || this.number_of_pieces);
+		_.set(this.map, [y, x], value || this.pieceCount);
 	}
 	
 	color(stud) {
-		let colorValue = stud == 0 && this.number_of_pieces > 1 ? 0 // black
+		let colorValue = stud == 0 && this.pieceCount > 1 ? 0 // black
 			: stud < 0 ? 4 // blue
 			: 2; // green
 		return "\u001b[" + (40 + colorValue) + "m";
@@ -41,27 +41,27 @@ class Map {
 		)).join("\n"));
 	}
 
-	fits(piece, x_offset, y_offset) {
+	fits(piece, dx, dy) {
 		return _(piece).every((line, y) => (
-			_(line).every((stud, x) => !(stud && this.get(x + x_offset, y + y_offset) != 0))
+			_(line).every((stud, x) => !(stud && this.get(x + dx, y + dy) != 0))
 		));
 	}
 
-	place(piece, x_offset, y_offset) {
-		this.number_of_pieces += 1;
+	place(piece, dx, dy) {
+		this.pieceCount += 1;
 		_(piece).each((line, y) => (
 			_(line).each((stud, x) => {
 				if (stud) {
-					this.set(x + x_offset, y + y_offset);
+					this.set(x + dx, y + dy);
 				}
 			})
 		));
 	}
 
-	tryPlacing(piece, x_offset, y_offset) {
-		const fits = this.fits(piece, x_offset, y_offset);
+	tryPlacing(piece, dx, dy) {
+		const fits = this.fits(piece, dx, dy);
 		if (fits) {
-			this.place(piece, x_offset, y_offset);
+			this.place(piece, dx, dy);
 		}
 		return fits;
 	}

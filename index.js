@@ -27,7 +27,7 @@ async function main() {
 			fs.writeFileSync(`greenLegos.json`, JSON.stringify(greenLegos, null, "\t"));
 		}
 
-		const greenPlates = _(greenLegos).map(LegoFactory).compact().orderBy(['studs', 'price_per_stud'], ['desc' ,'asc']).value();
+		const greenPlates = _(greenLegos).map(LegoFactory).compact().orderBy(['studs', 'pricePerStud'], ['desc' ,'asc']).value();
 
 		const map = new Map(threshold);
 
