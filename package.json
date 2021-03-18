@@ -1,5 +1,5 @@
 {
-	"name": "lego",
+	"name": "Optimise LEGO plates placement",
 	"version": "0.0.0",
 	"private": true,
 	"main": "index.js",
@@ -7,8 +7,6 @@
 		"start": "node index.js",
 		"debug": "nodemon --inspect=0.0.0.0:9229 index.js"
 	},
-	"author": "",
-	"license": "ISC",
 	"dependencies": {
 		"lodash": "latest",
 		"node-bitmap": "git+https://github.com/nowelium/node-bitmap.git",
@@ -16,7 +14,6 @@
 		"request": "latest",
 		"request-promise-native": "latest"
 	},
-	"devDependencies": {},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/JosephMarinier/lego.git"
@@ -25,5 +22,5 @@
 		"url": "https://github.com/JosephMarinier/lego/issues"
 	},
 	"homepage": "https://github.com/JosephMarinier/lego#readme",
-	"description": ""
+	"description": "The current example finds a placement for a World Map, but it can be repurposed by changing map.bmp for another image."
 }
